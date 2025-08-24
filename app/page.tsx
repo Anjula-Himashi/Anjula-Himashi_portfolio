@@ -199,7 +199,10 @@ export default function Home() {
                     Exploration Club of UCSC
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 mt-2">
-                    Organized and conducted teaching sessions for school students, as well as seminars, workshops, and events at the university to promote knowledge sharing and skill development
+                    Organized and conducted teaching sessions for school
+                    students, as well as seminars, workshops, and events at the
+                    university to promote knowledge sharing and skill
+                    development
                   </p>
                 </div>
                 <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:-translate-y-1 transition-transform duration-300">
@@ -208,7 +211,8 @@ export default function Home() {
                     UCSC ACM Student Chapter
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 mt-2">
-                    Actively participated in club meetings and contributed to various activities and initiatives organized by the club
+                    Actively participated in club meetings and contributed to
+                    various activities and initiatives organized by the club
                   </p>
                 </div>
               </div>
@@ -241,7 +245,7 @@ export default function Home() {
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/healthcare-digital-platform.jpg"
+                      src="/Medilink.png"
                       alt="MediLink Services"
                       fill
                       className="object-cover"
@@ -302,7 +306,7 @@ export default function Home() {
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/medicine-delivery-app.png"
+                      src="/ReMeD.png"
                       alt="ReMeD Platform"
                       fill
                       className="object-cover"
@@ -367,7 +371,7 @@ export default function Home() {
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/ai-medical-prediction-interface.png"
+                      src="/ReMeD_Predict.png"
                       alt="ReMeD Predict"
                       fill
                       className="object-cover"
@@ -375,11 +379,16 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-pink-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    An AI-powered system that predicts possible diseases based
-                    on user-input symptoms, helping users identify potential
-                    health issues and seek timely medical attention.
+                    A healthcare web app that predicts diseases from symptoms using an SVC model, with tailored precautions, medication, diet, and workout suggestions.
+
                   </p>
                   <div className="flex flex-wrap gap-2 mt-4">
+                    <Badge
+                      variant="outline"
+                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
+                    >
+                      React
+                    </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
@@ -390,19 +399,13 @@ export default function Home() {
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      HTML/CSS
+                      MySQL
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      JavaScript
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      AI/ML
+                      Python
                     </Badge>
                   </div>
                 </CardContent>
@@ -430,7 +433,7 @@ export default function Home() {
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/gamified-productivity-app.png"
+                      src="/FocusBloom.png"
                       alt="Focus Bloom"
                       fill
                       className="object-cover"
@@ -493,7 +496,7 @@ export default function Home() {
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/haunted-adventure-game.png"
+                      src="/Kirinda.png"
                       alt="Kirinda Game"
                       fill
                       className="object-cover"
